@@ -16,7 +16,7 @@ export default function Projects() {
         <ProjectCard
           img={project1}
           title="Shop Website"
-          link="https://jkplyhardware.github.io/JKPlyHardware/"
+          link="https://jk-ply-hardware-and-furniture-works.vercel.app/"
         />
 
         <ProjectCard
