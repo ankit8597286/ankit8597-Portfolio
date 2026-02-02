@@ -51,6 +51,13 @@ export default function Certificates() {
           title="Web Development with MERN"
           link="/certificates/Web Development.pdf"
         />
+
+        <Card
+          img="/certificates/IKS.jpeg"
+          title="Indian Knowledge Systems"
+          link="/certificates/IKS.jpeg"
+        />
+
       </div>
     </section>
   );
