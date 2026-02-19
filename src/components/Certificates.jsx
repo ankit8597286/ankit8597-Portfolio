@@ -60,7 +60,7 @@ export default function Certificates() {
 
         <Card
           img="/certificates/JavaScript.jpg"
-          title="Indian Knowledge Systems"
+          title="JavaScript"
           link="/certificates/JavaScript.pdf"
         />
 
@@ -138,3 +138,4 @@ const styles = {
     fontWeight: "600",
   },
 };
+
