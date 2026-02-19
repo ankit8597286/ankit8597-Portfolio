@@ -58,6 +58,12 @@ export default function Certificates() {
           link="/certificates/IKS.jpeg"
         />
 
+        <Card
+          img="/certificates/JavaScript.jpg"
+          title="Indian Knowledge Systems"
+          link="/certificates/JavaScript.pdf"
+        />
+
       </div>
     </section>
   );
