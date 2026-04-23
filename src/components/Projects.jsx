@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project1.jpg";
 import project2 from "../assets/projects/project2.jpg";
+import project3 from "../assets/projects/project3.jpg";
 
 export default function Projects() {
   return (
@@ -23,6 +24,11 @@ export default function Projects() {
           img={project2}
           title="Project 2"
           link="https://vaishnavi-728.github.io/vashnavi/"
+        />
+        <ProjectCard
+          img={project3}
+          title="ToDo Appliction"
+          link="https://todo-webappliction.netlify.app/"
         />
       </div>
     </section>
