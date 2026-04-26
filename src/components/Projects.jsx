@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project1.jpg";
 import project2 from "../assets/projects/project2.jpg";
 import project3 from "../assets/projects/project3.jpg";
+import project4 from "../assets/projects/project4.jpg";
 
 export default function Projects() {
   return (
@@ -16,13 +17,13 @@ export default function Projects() {
       <div style={styles.grid}>
         <ProjectCard
           img={project1}
-          title="Shop Website"
+          title="Hardware Shop Website"
           link="https://jk-ply-hardware-and-furniture-works.vercel.app/"
         />
 
         <ProjectCard
           img={project2}
-          title="Project 2"
+          title="Wedding studio website"
           link="https://vaishnavi-728.github.io/vashnavi/"
         />
         <ProjectCard
@@ -30,6 +31,12 @@ export default function Projects() {
           title="ToDo Appliction"
           link="https://todo-webappliction.netlify.app/"
         />
+        <ProjectCard
+          img={project4}
+          title="Personal Finance Tracker"
+          link="https://finance-trackerwebapp.netlify.app/"
+        />
+
       </div>
     </section>
   );
